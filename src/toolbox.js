@@ -414,7 +414,6 @@ export default (Blockly) => {
             <block type="s4d_on_connected"></block>
             <label text="%{BKY_BOT_INFORMATIONS}"></label>
             <block type="s4d_bot_ping"></block>
-            <block type="s4d_bot_cpu"></block>
             <block type="s4d_bot_cpus"></block>
             <block type="s4d_bot_shutdown"></block>
             <block type="s4d_bot_server_count"></block>
@@ -456,6 +455,10 @@ export default (Blockly) => {
             <label text="%{BKY_TOOLS}"></label>
             <block type="s4d_message_embed"></block>
         </category>
+        <category name="Misc" colour="#731627">
+        <label text="Misc cmd" web-class="boldtext"></label>
+        <block type="s4d_bot_shutdown"></block>
+        </category>
         <category name="Edited" colour="#7289da">
             <label text="Dont expect much as its my first day making blocks" web-class="boldtext"></label>
             <block type="when_message_is_edited"></block>
@@ -492,6 +495,7 @@ export default (Blockly) => {
             <block type="s4d_react_message_id"></block>
             <block type="s4d_react_emoji"></block>
             <block type="s4d_react_member"></block>
+            <block type="s4d_bot_cpus"></block>
         </category>
         <sep />
         <category name="{{ TOOLBOX_SERVER }}" colour="#D85E47">
@@ -624,6 +628,9 @@ export default (Blockly) => {
                     </shadow>
                 </value>
             </block>
+        </category>
+        <category name="Slash" colour="#731627">
+        <label text="Coming soon in few weeks!" web-class="boldtext"></label>
         </category>
     </xml>
 `.replace(/{{\s([A-z]{3,})\s}}/g, (x) => {
