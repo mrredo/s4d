@@ -456,6 +456,11 @@ export default (Blockly) => {
             <label text="%{BKY_TOOLS}"></label>
             <block type="s4d_message_embed"></block>
         </category>
+        <category name="Edited" colour="#7289da">
+            <label text="Dont expect much as its my first day making blocks" web-class="boldtext"></label>
+            <block type="when_message_is_edited"></block>
+            <block type="s4d_newmessage_content"></block>
+        </category>
         <category name="{{ TOOLBOX_E_JOINS }}" colour="#EABB11">
             <label text="%{BKY_JOINS_RELATED_BLOCKS}" web-class="boldtext"></label>
             <label text="%{BKY_DETECT_JOINS}"></label>
