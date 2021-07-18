@@ -19,7 +19,7 @@ Blockly.Blocks[blockName] = {
 };
 
 Blockly.JavaScript[blockName] = function(){
-    const code = `client.destroy();\n`;
+    const code = `s4d.client.destroy();\n`;
     return code;
 };
 
