@@ -416,6 +416,7 @@ export default (Blockly) => {
             <block type="s4d_bot_ping"></block>
             <block type="s4d_bot_cpu"></block>
             <block type="s4d_bot_cpus"></block>
+            <block type="s4d_bot_shutdown"></block>
             <block type="s4d_bot_server_count"></block>
             <label text="%{BKY_BOT_ACTIONS}"></label>
             <block type="s4d_set_bot_game"></block>
