@@ -464,13 +464,13 @@ export default (Blockly) => {
             <label text="New message stuff" web-class="boldtext"></label>
             <block type="s4d_newmessage_content"></block>
             <block type="s4d_newmsg_del"></block>
-            <block type="s4d_replys"></block>
             <block type="newmsg_member"></block>
             <label text="Old message stuff" web-class="boldtext"></label>
             <block type="s4d_oldmessage_content"></block>
-            <block type="s4d_oldmsg_del"></block>
-            <block type="s4d_reply_oldmsg"></block> 
-            <block type="oldmsg_member"></block>
+            <block type="new_message_server"></block>
+            <block type="newmsg_timestamp"></block>
+            
+            <block type="newmsg_channel"></block>
         </category>
         <category name="{{ TOOLBOX_E_JOINS }}" colour="#EABB11">
             <label text="%{BKY_JOINS_RELATED_BLOCKS}" web-class="boldtext"></label>

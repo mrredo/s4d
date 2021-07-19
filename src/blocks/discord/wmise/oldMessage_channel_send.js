@@ -4,7 +4,7 @@ import * as Blockly from "blockly/core";
 const blockName = "s4d_reply_oldmsg";
 
 const blockData = {
-    "message0": "send old message in channel %1",
+    "message0": "send message in old message channel %1",
     "args0": [
         {
             "type": "input_value",
