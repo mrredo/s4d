@@ -18,7 +18,7 @@ Blockly.Blocks[blockName] = {
 };
 
 Blockly.JavaScript[blockName] = function() {
-    const code = ["s4dnewMessage.content", Blockly.JavaScript.ORDER_NONE];
+    const code = ["newMessage.content", Blockly.JavaScript.ORDER_NONE];
     return code;
 };
 

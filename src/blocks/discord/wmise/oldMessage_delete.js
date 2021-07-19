@@ -1,10 +1,10 @@
 import * as Blockly from "blockly/core";
 
 
-const blockName = "s4d_bot_cpus";
+const blockName = "s4d_oldmsg_del";
 
 const blockData = {
-    "message0": "Remove All reactions",
+    "message0": "Delete old message content",
     "colour": "#4C97FF",
     "previousStatement": null,
     "nextStatement": null,
@@ -19,7 +19,7 @@ Blockly.Blocks[blockName] = {
 };
 
 Blockly.JavaScript[blockName] = function(){
-    const code = `s4dmessage.reactions.removeAll();\n`;
+    const code = `oldMessage.delete()\n`;
     return code;
 };
 

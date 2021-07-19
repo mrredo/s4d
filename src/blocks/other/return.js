@@ -1,11 +1,11 @@
 import * as Blockly from "blockly/core";
 
 
-const blockName = "s4d_bot_cpus";
+const blockName = "return";
 
 const blockData = {
-    "message0": "Remove All reactions",
-    "colour": "#4C97FF",
+    "message0": "return",
+    "colour": "#D14081",
     "previousStatement": null,
     "nextStatement": null,
     "tooltip": "",
@@ -19,7 +19,7 @@ Blockly.Blocks[blockName] = {
 };
 
 Blockly.JavaScript[blockName] = function(){
-    const code = `s4dmessage.reactions.removeAll();\n`;
+    const code = `return\n`;
     return code;
 };
 

@@ -391,6 +391,7 @@ export default (Blockly) => {
         <category name="{{ TOOLBOX_FUNCTIONS }}" colour="#995ba5" custom="PROCEDURE" />
         <category name="{{ TOOLBOX_OTHER }}" colour="#D14081">
             <block type="s4d_current"></block>
+            <block type="return"></block>
             <block type="s4d_run_save_output"></block>
             <block type="s4d_wait_seconds">
                 <value name="TIME">
@@ -414,8 +415,6 @@ export default (Blockly) => {
             <block type="s4d_on_connected"></block>
             <label text="%{BKY_BOT_INFORMATIONS}"></label>
             <block type="s4d_bot_ping"></block>
-            <block type="s4d_bot_cpus"></block>
-            <block type="s4d_bot_shutdown"></block>
             <block type="s4d_bot_server_count"></block>
             <label text="%{BKY_BOT_ACTIONS}"></label>
             <block type="s4d_set_bot_game"></block>
@@ -460,10 +459,18 @@ export default (Blockly) => {
         <block type="s4d_bot_shutdown"></block>
         </category>
         <category name="Edited" colour="#7289da">
-            <label text="Dont expect much as its my first day making blocks" web-class="boldtext"></label>
+            <label text="Dont expect much as its my 2 nd day making blocks" web-class="boldtext"></label>
             <block type="when_message_is_edited"></block>
+            <label text="New message stuff" web-class="boldtext"></label>
             <block type="s4d_newmessage_content"></block>
+            <block type="s4d_newmsg_del"></block>
+            <block type="s4d_replys"></block>
+            <block type="newmsg_member"></block>
+            <label text="Old message stuff" web-class="boldtext"></label>
             <block type="s4d_oldmessage_content"></block>
+            <block type="s4d_oldmsg_del"></block>
+            <block type="s4d_reply_oldmsg"></block> 
+            <block type="oldmsg_member"></block>
         </category>
         <category name="{{ TOOLBOX_E_JOINS }}" colour="#EABB11">
             <label text="%{BKY_JOINS_RELATED_BLOCKS}" web-class="boldtext"></label>
