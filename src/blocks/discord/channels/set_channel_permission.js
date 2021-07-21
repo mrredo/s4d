@@ -4,7 +4,7 @@ import * as Blockly from "blockly/core";
 const blockName = "s4d_create_embed_then";
 
 const blockData = {
-    "message0": "member %3 channel %4 Permissions %2 %1",
+    "message0": "who %3 channel %4 Permissions %2 %1",
     "args0": [{
             "type": "input_statement",
             "name": "THEN"
@@ -15,7 +15,7 @@ const blockData = {
         {
             "type": "input_value",
             "name": "MEMBER",
-            "check": "Member"
+            "check": ["Member", "Role"]
         },
         {
             "type": "input_value",
