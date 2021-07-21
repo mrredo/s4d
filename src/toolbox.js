@@ -518,6 +518,9 @@ export default (Blockly) => {
             <block type="s4d_set_server_name"></block>
         </category>
         <category name="{{ TOOLBOX_CHANNELS }}" colour="#a55b80">
+        <block type="s4d_create_embed_then"></block>
+        <block type="set_perms"></block>
+        <block type="set_perms_parent"></block>
             <label text="%{BKY_FIND_CHANNEL}"></label>
             <block type="s4d_get_channel"></block>
             <label text="%{BKY_SEND_CHANNEL_LABEL}"></label>

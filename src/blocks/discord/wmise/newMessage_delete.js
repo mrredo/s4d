@@ -4,7 +4,7 @@ import * as Blockly from "blockly/core";
 const blockName = "s4d_newmsg_del";
 
 const blockData = {
-    "message0": "Delete New message content",
+    "message0": "Delete new Message",
     "colour": "#4C97FF",
     "previousStatement": null,
     "nextStatement": null,
